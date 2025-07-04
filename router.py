@@ -1,4 +1,3 @@
-# app/router.py
 
 def route_claim(info, complexity_score):
     if complexity_score <= 3:
