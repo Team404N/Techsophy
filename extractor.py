@@ -1,10 +1,8 @@
-# app/extractor.py
 import re
 
 def extract_information(text, doc_type):
     info = {}
     
-    # Sample extractions using regex
     name_match = re.search(r"Name:\s*(.*)", text)
     policy_match = re.search(r"Policy\s*ID:\s*(\w+)", text)
     amount_match = re.search(r"Amount:\s*\$?([\d,\.]+)", text)
