@@ -1,4 +1,4 @@
-# main.py
+
 from flask import Flask, request, jsonify
 from app.ocr import extract_text_from_document
 from app.classifier import classify_document
