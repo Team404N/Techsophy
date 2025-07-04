@@ -1,4 +1,3 @@
-# app/classifier.py
 
 def classify_document(text):
     text_lower = text.lower()
