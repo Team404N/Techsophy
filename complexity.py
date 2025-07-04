@@ -1,4 +1,3 @@
-# app/complexity.py
 
 def assess_complexity(info):
     score = 0
@@ -10,4 +9,4 @@ def assess_complexity(info):
     if info["claim_amount"] == "0":
         score += 5
 
-    return score  # Higher score = more complex
+    return score  
